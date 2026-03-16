@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.4 (2026-03-16)
+
+### Fixes
+
+- **Mobile**: Bottom navigation bar now stays visible when viewing an email, so users can switch between Mail/Calendar/Contacts (#30)
+- **Move to folder**: Dialog now shows hierarchical folder structure instead of a flat list (#29)
+
 ## 1.1.3 (2026-03-16)
 
 ### Fixes
