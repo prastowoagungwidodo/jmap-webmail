@@ -170,12 +170,12 @@ export function ContactList({
                 <p className="text-sm font-medium text-foreground">{t("empty_state_title")}</p>
                 <p className="text-xs text-muted-foreground mt-1">{t("empty_state_subtitle")}</p>
                 <div className="flex gap-2 mt-4">
-                  <Button size="sm" onClick={onCreateNew}>
+                  <Button size="sm" onClick={onCreateNew} className="whitespace-nowrap overflow-hidden text-ellipsis">
                     <UserPlus className="w-4 h-4 mr-1.5" />
                     {t("create_new")}
                   </Button>
                   {onImport && (
-                    <Button variant="outline" size="sm" onClick={onImport}>
+                    <Button variant="outline" size="sm" onClick={onImport} className="whitespace-nowrap overflow-hidden text-ellipsis">
                       <Upload className="w-4 h-4 mr-1.5" />
                       {t("import_vcard")}
                     </Button>
